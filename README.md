@@ -1,8 +1,7 @@
-# wepy-X-minui
+# wepy-minui
 wepy with minui
-本项目仅供参考，如有疑问欢迎提issue，我会尽力解决。
 
-## min-cli 1.0.5-beta1, wepy 1.6.0
+> min-cli 1.0.5-beta1, wepy 1.6.0
 
 ## 使用方法
 
@@ -11,7 +10,7 @@ wepy with minui
 2、执行
 
 ```
-npm i 
+npm i
 
 wepy build -w
 ```

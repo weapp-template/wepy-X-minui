@@ -1,16 +1,17 @@
 {
-  "name": "wepy-X-minui",
-  "version": "1.2.8",
-  "description": "",
+  "name": "wepy-minui",
+  "version": "1.0.0",
+  "description": "MinUI in WePY",
   "main": "dist/app.js",
   "scripts": {
     "dev": "wepy build --watch",
     "build": "cross-env NODE_ENV=production wepy build --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "steven",
   "license": "MIT",
   "dependencies": {
+    "wepy": "^1.6.0",
     "@minui/wxc-abnor": "^1.0.3",
     "@minui/wxc-avatar": "^1.0.1",
     "@minui/wxc-badge": "^1.0.3",
@@ -28,8 +29,7 @@
     "@minui/wxc-progress": "^1.0.3",
     "@minui/wxc-steps": "^1.0.3",
     "@minui/wxc-tab": "^1.0.3",
-    "@minui/wxc-toast": "^1.0.3",
-    "wepy": "^1.6.0"
+    "@minui/wxc-toast": "^1.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
@@ -38,7 +38,7 @@
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "cross-env": "^5.1.1",
+    "cross-env": "^5.1.3",
     "eslint": "^3.18.0",
     "eslint-config-standard": "^7.1.0",
     "eslint-friendly-formatter": "^2.0.7",
