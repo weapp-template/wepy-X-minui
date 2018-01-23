@@ -1,7 +1,7 @@
 # wepy-minui
 在 WePY 项目中使用 MinUI 组件的模板
 
-页面效果如下：
+页面效果如下：<br>
 <img src="https://ws3.sinaimg.cn/large/006tKfTcgy1fm6xmveiqmj30k00zo76h.jpg" width="30%" height="30%">
 
 ## 开发/构建
