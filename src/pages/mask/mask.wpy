@@ -13,8 +13,8 @@
     background: #FFF;
     color: #000;
   }
-
 </style>
+
 <template>
   <view class="flex flex_column margin_left margin_right font_normal">
     <view class="flex">
@@ -71,9 +71,10 @@
     config = {
       navigationBarTitleText: 'mask',
       usingComponents: {
-        'wxc-mask': '../../packages/@minui/wxc-mask/dist/index'
+        'wxc-mask': '../../minui/wxc-mask/dist/index'
       }
     }
+
     data = {
       maskStatus: {
         0: 'hide',
@@ -81,20 +82,21 @@
         2: 'hide',
         3: 'hide',
         4: 'hide',
-        5: 'hide',
+        5: 'hide'
       }
     }
+
     methods = {
       showMask(index) {
-        this.maskStatus[index] = 'show';
+        this.maskStatus[index] = 'show'
       },
-	  hideMask() {
-		this.maskStatus[5] = 'hide';
-	  }
+      hideMask() {
+        this.maskStatus[5] = 'hide'
+      }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

@@ -8,7 +8,6 @@
       {{tab.content}}
     </wxc-tab-panel>
     </view>
-
   </wxc-tab>
 </template>
 
@@ -19,33 +18,32 @@
     config = {
       navigationBarTitleText: 'tab',
       usingComponents: {
-        'wxc-tab': '../../packages/@minui/wxc-tab/dist/index',
-        'wxc-tab-panel': '../../packages/@minui/wxc-tab/dist/panel'
+        'wxc-tab': '../../minui/wxc-tab/dist/index',
+        'wxc-tab-panel': '../../minui/wxc-tab/dist/panel'
       }
     }
+
     data = {
       tabs: [{
-          title: '选项一',
-          content: '内容一'
-        },
-        {
-          title: '选项二',
-          content: '内容二'
-        },
-        {
-          title: '选项三',
-          content: '内容三'
-        }
-      ]
+        title: '选项一',
+        content: '内容一'
+      }, {
+        title: '选项二',
+        content: '内容二'
+      }, {
+        title: '选项三',
+        content: '内容三'
+      }]
     }
+
     methods = {
       onClick: function (e) {
-        console.log(`ComponentId:${e.detail.componentId},you selected:${e.detail.key}`);
+        console.log(`ComponentId:${e.detail.componentId},you selected:${e.detail.key}`)
       }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

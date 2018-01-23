@@ -4,5 +4,4 @@
       {{tab.content}}
     </wxc-tab-panel>
     
-
   </wxc-tab>

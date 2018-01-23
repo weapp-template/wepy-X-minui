@@ -68,7 +68,7 @@
     config = {
       navigationBarTitleText: 'Elip',
       usingComponents: {
-        'wxc-elip': '../../packages/@minui/wxc-elip/dist/index'
+        'wxc-elip': '../../minui/wxc-elip/dist/index'
       }
     }
     methods = {}

@@ -60,7 +60,6 @@
   Page {
     background-color: #F8F8F8
   }
-
 </style>
 <script>
   import wepy from 'wepy'
@@ -85,19 +84,33 @@
         'pages/loading/loading',
         'pages/mask/mask',
         'pages/steps/steps',
-        'pages/tab/tab',
+        'pages/tab/tab'
       ],
       window: {
-        backgroundTextStyle: 'light',
-        navigationBarBackgroundColor: '#fff',
-        navigationBarTitleText: 'WeChat',
-        navigationBarTextStyle: 'black'
+        navigationBarBackgroundColor: '#28B1B0',
+        navigationBarTextStyle: 'light',
+        navigationBarTitleText: 'minui',
+        // enablePullDownRefresh: true,
+        backgroundColor: '#eee',
+        backgroundTextStyle: 'light'
       }
+      // tabBar: {
+      //   color: '#8a8a8a',
+      //   selectedColor: '#1F9948',
+      //   borderStyle: 'white',
+      //   backgroundColor: '#fff',
+      //   list: [{
+      //     text: '首页',
+      //     pagePath: 'pages/index'
+      //   }, {
+      //     text: '我的',
+      //     pagePath: 'pages/tab/tab'
+      //   }]
+      // }
     }
 
     onLaunch() {
       console.log('on launch')
     }
   }
-
 </script>

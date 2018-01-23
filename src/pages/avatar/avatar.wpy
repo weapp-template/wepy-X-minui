@@ -87,7 +87,7 @@
     config = {
       navigationBarTitleText: 'avatar',
       usingComponents: {
-        'wxc-avatar': '../../packages/@minui/wxc-avatar/dist/index'
+        'wxc-avatar': '../../minui/wxc-avatar/dist/index'
       }
     }
     methods = {}

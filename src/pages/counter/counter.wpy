@@ -46,7 +46,7 @@
     config = {
       navigationBarTitleText: 'counter',
       usingComponents: {
-        'wxc-counter': '../../packages/@minui/wxc-counter/dist/index'
+        'wxc-counter': '../../minui/wxc-counter/dist/index'
       }
     }
     data = {}

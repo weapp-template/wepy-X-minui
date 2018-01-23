@@ -28,5 +28,4 @@
         <wxc-countdown countdown="{{countdown2}}"  bind:runcount="onRunCount" bind:endcount="onEndCount"/>
       </view>
     </view>
-
   </view>

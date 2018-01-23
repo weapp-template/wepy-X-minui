@@ -24,7 +24,7 @@
     config = {
       navigationBarTitleText: 'steps',
       usingComponents: {
-        'wxc-steps': '../../packages/@minui/wxc-steps/dist/index'
+        'wxc-steps': '../../minui/wxc-steps/dist/index'
       }
     }
     data = {

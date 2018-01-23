@@ -1,1 +1,1 @@
-{"navigationBarTitleText":"steps","usingComponents":{"wxc-steps":"../../packages/@minui/wxc-steps/dist/index"}}
+{"navigationBarTitleText":"steps","usingComponents":{"wxc-steps":"../../minui/wxc-steps/dist/index"}}

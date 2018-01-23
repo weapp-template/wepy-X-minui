@@ -1,1 +1,1 @@
-{"navigationBarTitleText":"progress","usingComponents":{"wxc-progress":"../../packages/@minui/wxc-progress/dist/index"}}
+{"navigationBarTitleText":"progress","usingComponents":{"wxc-progress":"../../minui/wxc-progress/dist/index"}}

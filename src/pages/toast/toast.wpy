@@ -45,21 +45,23 @@
     config = {
       navigationBarTitleText: 'toast',
       usingComponents: {
-        'wxc-toast': '../../packages/@minui/wxc-toast/dist/index',
+        'wxc-toast': '../../minui/wxc-toast/dist/index'
       }
     }
+
     data = {
       isShow: false
     }
+
     methods = {
       showToast(index) {
-        let toastComponent = this.$wxpage.selectComponent('.wxc-toast' + index);
-        toastComponent && toastComponent.show();
+        let toastComponent = this.$wxpage.selectComponent('.wxc-toast' + index)
+        toastComponent && toastComponent.show()
       }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

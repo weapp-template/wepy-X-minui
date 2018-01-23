@@ -23,8 +23,8 @@
     background: #ffffff;
     text-align: center;
   }
-
 </style>
+
 <template>
   <view class="flex flex_column margin_left margin_right font_normal">
     <view class="flex align_center justify_center">
@@ -85,22 +85,23 @@
     config = {
       navigationBarTitleText: 'popup',
       usingComponents: {
-        'wxc-popup': '../../packages/@minui/wxc-popup/dist/index',
+        'wxc-popup': '../../minui/wxc-popup/dist/index'
       }
     }
+
     methods = {
       showpopup(index) {
-        let popupComponent = this.$wxpage.selectComponent('.wxc-popup' + index);
-        popupComponent && popupComponent.show();
+        let popupComponent = this.$wxpage.selectComponent('.wxc-popup' + index)
+        popupComponent && popupComponent.show()
       },
       onCancel(index) {
-        let popupComponent = this.$wxpage.selectComponent('.wxc-popup' + index);
-        popupComponent && popupComponent.hide();
+        let popupComponent = this.$wxpage.selectComponent('.wxc-popup' + index)
+        popupComponent && popupComponent.hide()
       }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

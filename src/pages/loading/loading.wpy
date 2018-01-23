@@ -7,8 +7,8 @@
     padding-left: 20rpx;
     color: #f5456e
   }
-
 </style>
+
 <template>
   <view class="flex flex_column margin_left margin_right font_normal">
     <view class="flex">
@@ -33,23 +33,25 @@
     config = {
       navigationBarTitleText: 'loading',
       usingComponents: {
-        'wxc-loading': '../../packages/@minui/wxc-loading/dist/index'
+        'wxc-loading': '../../minui/wxc-loading/dist/index'
       }
     }
+
     data = {}
+
     methods = {
       showLoading(index) {
-        let loadingComponent = this.$wxpage.selectComponent('.wxc-loading' + index);
-        loadingComponent && loadingComponent.show();
+        let loadingComponent = this.$wxpage.selectComponent('.wxc-loading' + index)
+        loadingComponent && loadingComponent.show()
 
         setTimeout(() => {
-          loadingComponent && loadingComponent.hide();
-        }, 2000);
+          loadingComponent && loadingComponent.hide()
+        }, 2000)
       }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

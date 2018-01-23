@@ -73,8 +73,8 @@
     config = {
       navigationBarTitleText: 'Label',
       usingComponents: {
-        'wxc-label': '../../packages/@minui/wxc-label/dist/index',
-        'wxc-icon': '../../packages/@minui/wxc-icon/dist/index'
+        'wxc-label': '../../minui/wxc-label/dist/index',
+        'wxc-icon': '../../minui/wxc-icon/dist/index'
       }
     }
     methods = {}

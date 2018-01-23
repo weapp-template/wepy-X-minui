@@ -4,8 +4,8 @@
     margin-bottom: 20px;
     padding: 5px;
   }
-
 </style>
+
 <template>
   <view class="flex flex_column margin_left margin_right font_normal">
     <view class="flex align_center justify_center">
@@ -66,22 +66,23 @@
     config = {
       navigationBarTitleText: 'dialog',
       usingComponents: {
-        'wxc-dialog': '../../packages/@minui/wxc-dialog/dist/index',
+        'wxc-dialog': '../../minui/wxc-dialog/dist/index'
       }
     }
+
     methods = {
       showDialog(index) {
-        let dialogComponent = this.$wxpage.selectComponent('.wxc-dialog' + index);
-        dialogComponent && dialogComponent.show();
+        let dialogComponent = this.$wxpage.selectComponent('.wxc-dialog' + index)
+        dialogComponent && dialogComponent.show()
       },
       onCancel(index) {
-        let dialogComponent = this.$wxpage.selectComponent('.wxc-dialog' + index);
-        dialogComponent && dialogComponent.hide();
+        let dialogComponent = this.$wxpage.selectComponent('.wxc-dialog' + index)
+        dialogComponent && dialogComponent.hide()
       }
     }
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

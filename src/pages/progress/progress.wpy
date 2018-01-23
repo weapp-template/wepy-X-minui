@@ -41,8 +41,8 @@
     top: -20rpx;
     right: -2rpx;
   }
-
 </style>
+
 <template>
   <view class="margin_left margin_right">
     <view class="margin_top">
@@ -100,13 +100,14 @@
     config = {
       navigationBarTitleText: 'progress',
       usingComponents: {
-        'wxc-progress': '../../packages/@minui/wxc-progress/dist/index',
+        'wxc-progress': '../../minui/wxc-progress/dist/index'
       }
     }
+
     methods = {}
+
     onLoad() {
       console.log('onLoad')
     }
   }
-
 </script>

@@ -18,7 +18,6 @@
   .padding_line {
     padding: 5px 0;
   }
-
 </style>
 
 <template>
@@ -55,32 +54,32 @@
 
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: 'wepy-X-minui',
+      navigationBarTitleText: 'wepy-minui',
       usingComponents: {
-        'wxc-dialog': '../packages/@minui/wxc-dialog/dist/index',
-        'wxc-icon': '../packages/@minui/wxc-icon/dist/index'
+        'wxc-dialog': '../minui/wxc-dialog/dist/index',
+        'wxc-icon': '../minui/wxc-icon/dist/index'
       }
     }
+
     data = {
       components: [{
-          title: '基础元件',
-          list: ['avatar', 'badge', 'elip', 'label', 'loadmore', 'price', 'progress']
-        }, {
-          title: '功能组件',
-          list: ['abnor', 'countdown', 'counter', 'loading', 'mask', 'steps', 'tab']
-        },
-        {
-          title: '提示反馈',
-          list: ['dialog', 'popup', 'toast']
-        }
-      ]
+        title: '基础元件',
+        list: ['avatar', 'badge', 'elip', 'label', 'loadmore', 'price', 'progress']
+      }, {
+        title: '功能组件',
+        list: ['abnor', 'countdown', 'counter', 'loading', 'mask', 'steps', 'tab']
+      }, {
+        title: '提示反馈',
+        list: ['dialog', 'popup', 'toast']
+      }]
     }
+
     methods = {
       toComponent(name) {
-        this.$navigate(`./${name}/${name}`);
+        this.$navigate(`./${name}/${name}`)
       }
     }
+
     onLoad() {}
   }
-
 </script>

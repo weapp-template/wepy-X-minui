@@ -1,1 +1,1 @@
-{"navigationBarTitleText":"Label","usingComponents":{"wxc-label":"../../packages/@minui/wxc-label/dist/index","wxc-icon":"../../packages/@minui/wxc-icon/dist/index"}}
+{"navigationBarTitleText":"Label","usingComponents":{"wxc-label":"../../minui/wxc-label/dist/index","wxc-icon":"../../minui/wxc-icon/dist/index"}}

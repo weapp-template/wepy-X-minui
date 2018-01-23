@@ -5,7 +5,7 @@ wepy with minui
 
 ## 使用方法
 
-1、clone本项目
+1、clone 本项目
 
 2、执行
 
