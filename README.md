@@ -19,4 +19,4 @@ npm run build
 
 ### MinUI 组件安装及使用
 
-![MinUI 官方文档](https://meili.github.io/min/docs/min-cli/third-project/tutorial/with-wepy.html)
+[MinUI 官方文档](https://meili.github.io/min/docs/min-cli/third-project/tutorial/with-wepy.html)
