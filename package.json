@@ -9,12 +9,12 @@
     "lint": "eslint --ext .js,.wepy src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "steven",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/weapp-template/wepy-minui.git"
   },
-  "author": "steven",
-  "license": "MIT",
   "dependencies": {
     "wepy": "^1.6.0",
     "wepy-async-function": "^1.4.4"

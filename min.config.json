@@ -13,10 +13,6 @@
       ]
     }
   },
-  "pkgNames": [
-    "@minui/wxc-loading",
-    "@minui/wxc-tab"
-  ],
   "npm": {
     "dest": "dist/packages"
   }
